@@ -1,5 +1,9 @@
 import random
 
+"""
+
+"""
+
 from user import User #importing the user class
 
 def main(): #defining the main function
@@ -28,6 +32,9 @@ def main(): #defining the main function
                 print("Confirm password")#printing confirm password
                 confirm_password = input()
                 
+                """
+                
+                """
             else:
                 print(f"Password confirmed! Welcome {created_name} account created successfully")#printing welcome message
                 print("\n")
@@ -44,6 +51,20 @@ def main(): #defining the main function
                     print("password")
                     entered_password = input()
             else:
-                print(f"Welcome {entered_username}")
+                print(f"Welcome {entered_username}") #printing welcome message
                 print("\n")
                 
+        elif short_code == 'lg':#if short_code is lg
+            print("Login")
+            print("username")
+            entered_username = input()
+            print("password")
+            entered_password = input()
+            while entered_username != created_name or entered_password != created_password:
+                    print("wrong username or password")
+                    print("username")
+                    entered_username = input()
+                    print("password")
+                    entered_password = input()
+            else:
+                print(f"Welcome {entered_username}")
