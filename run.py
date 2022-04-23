@@ -60,11 +60,13 @@ def main(): #defining the main function
             entered_username = input()
             print("password")
             entered_password = input()
-            while entered_username != created_name or entered_password != created_password:
+            while entered_username != created_name or entered_password != created_password:#if entered_username and entered_password are not equal to created_name and created_password
                     print("wrong username or password")
                     print("username")
-                    entered_username = input()
+                    entered_username = input()#inputing username
                     print("password")
                     entered_password = input()
             else:
-                print(f"Welcome {entered_username}")
+                print(f"Welcome {entered_username}")#printing welcome message
+                print("\n")
+                print("\n")
