@@ -19,3 +19,20 @@ def main(): #defining the main function
 
             print("Confirm password") #printing confirm password
             confirm_password = input() #inputing confirm password
+            
+
+            while confirm_password != created_password:
+                print("Password does not match")
+                print("Enter a password")
+                created_password = input()
+                print("Confirm password")#printing confirm password
+                confirm_password = input()
+                
+            else:
+                print(f"Password confirmed! Welcome {created_name} account created successfully")#printing welcome message
+                print("\n")
+                print("try logging in")
+                print("username")
+                entered_username = input()#inputing username
+                print("password")
+                entered_password = input()#inputing password
