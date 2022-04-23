@@ -10,3 +10,12 @@ def main(): #defining the main function
         short_code = input().lower() #short_code input
         print("\n") #printing a new line
        
+        if short_code == 'nu': #if short_code is nu
+            print("New User") #printing new user
+            created_name = input
+
+            print("Enter a password") #printing password
+            created_password = input() #inputing password
+
+            print("Confirm password") #printing confirm password
+            confirm_password = input() #inputing confirm password
