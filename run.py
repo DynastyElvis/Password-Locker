@@ -36,3 +36,60 @@ def main(): #defining the main function
                 entered_username = input()#inputing username
                 print("password")
                 entered_password = input()#inputing password
+
+            while entered_username != created_name or entered_password != created_password:
+                    print("wrong username or password")
+                    print("username")
+                    entered_username = input()
+                    print("password")
+                    entered_password = input()
+            else:
+                print(f"Welcome {entered_username}")
+                print("\n")
+                print("navigation shortcode: Press 'nu' to create a new account:'ex' to exit or 'lg' to login")
+                short_code = input().lower()
+                print("\n")
+                if short_code == 'ex':
+                    print("Goodbye")
+                    break
+                elif short_code == 'lg':
+                    print("Logging in")
+                    print("username")
+                    entered_username = input()
+                    print("password")
+                    entered_password = input()
+                    while entered_username != created_name or entered_password != created_password:
+                        print("wrong username or password")
+                        print("username")
+                        entered_username = input()
+                        print("password")
+                        entered_password = input()
+                    else:
+                        print(f"Welcome {entered_username}")
+                        print("\n")
+                        print("navigation shortcode: Press 'nu' to create a new account:'ex' to exit or 'lg' to login")
+                        short_code = input().lower()
+                        print("\n")
+                        if short_code == 'ex':
+                            print("Goodbye")
+                            break
+                        elif short_code == 'lg':
+                            print("Logging in")
+                            print("username")
+                            entered_username = input()
+                            print("password")
+                            entered_password = input()
+                            while entered_username != created_name or entered_password != created_password:
+                                print("wrong username or password")
+                                print("username")
+                                entered_username = input()
+                                print("password")
+                                entered_password = input()
+                            else:
+                                print(f"Welcome {entered_username}")
+                                print("\n")
+                                print("navigation shortcode: Press 'nu' to create a new account:'ex' to exit or 'lg' to login")
+                                short_code = input().lower()
+                                print("\n")
+                                if short_code == 'ex':
+                                    print("Goodbye")
