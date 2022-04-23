@@ -1,8 +1,12 @@
 class User:
-    def __init__(self, name, email, password):
+    #class generating new user
+    user_list = []
+    def __init__(self, name, password):
         self.name = name
-        self.email = email
         self.password = password
 
-    def __str__(self):
-        return f'{self.name} {self.email} {self.password}'
+
+    def save_user(self):
+        #saving user to the user_list
+        User.user_list.append(self)
+
