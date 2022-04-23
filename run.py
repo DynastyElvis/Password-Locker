@@ -73,3 +73,7 @@ def main(): #defining the main function
 
         elif short_code == 'ex':#if short_code is ex
             print("Goodbye")#printing goodbye message
+            break#break the loop
+        else:
+            print("I really didn't get that. Please use the short codes")
+            
