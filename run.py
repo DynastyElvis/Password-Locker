@@ -70,3 +70,6 @@ def main(): #defining the main function
                 print(f"Welcome {entered_username}")#printing welcome message
                 print("\n")
                 print("\n")
+
+        elif short_code == 'ex':#if short_code is ex
+            print("Goodbye")#printing goodbye message
