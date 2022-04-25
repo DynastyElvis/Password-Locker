@@ -1,12 +1,15 @@
 import random
 
-"""
-
-"""
-
 from user import User #importing the user class
 
-def main(): #defining the main function
+def main(): 
+    
+    """
+    
+    defining the main function
+    
+    """
+    
     while True:
         print("Hello! Welcome to Password Locker.")#welcome message
         print("\n")
@@ -33,7 +36,7 @@ def main(): #defining the main function
                 confirm_password = input()
                 
                 """
-                
+                confirm_password 
                 """
             else:
                 print(f"Password confirmed! Welcome {created_name} account created successfully")#printing welcome message
@@ -43,7 +46,10 @@ def main(): #defining the main function
                 entered_username = input()#inputing username
                 print("password")
                 entered_password = input()#inputing password
-
+                
+                """
+                user_login
+                """ 
             while entered_username != created_name or entered_password != created_password:
                     print("wrong username or password")
                     print("username")
@@ -79,3 +85,5 @@ def main(): #defining the main function
 
 if __name__ == '__main__':
     main()
+    """allow or prevent parts of code from being run when the modules are imported.
+    """
