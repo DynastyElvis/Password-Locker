@@ -1,6 +1,0 @@
-import pyperclip
-
-
-"""
-    importing pyperclip
-"""
