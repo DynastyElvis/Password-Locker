@@ -1,8 +1,8 @@
 class User:
     #class generating new user
     user_list = []
-    def __init__(self, name, password): #initializing the user
-        self.name = name
+    def __init__(self, username, password): #initializing the user
+        self.username = username
         self.password = password #defining the user_login function
 
 
