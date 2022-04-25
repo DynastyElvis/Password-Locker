@@ -16,7 +16,7 @@ def main():
         print("navigation shortcode: Press 'nu' to create a new account:'ex' to exit or 'lg' to login") #navigation shortcode
         short_code = input().lower() #short_code input
         print("\n") #printing a new line
-       
+    
         if short_code == 'nu': #if short_code is nu
             print("New User") #printing new user
             created_name = input

@@ -15,10 +15,7 @@ def setUp(self):
     '''
     
     self.new_user = User("username","password") # create user object
-        '''
-        test_save_user test case to test if the user object is saved into
-         the user list
-        '''
+
     def test_save_user(self):
         self.new_user.save_user()
         self.assertEqual(len(User.user_list),1)
